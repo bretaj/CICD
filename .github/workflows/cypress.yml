@@ -2,9 +2,9 @@ name: Cypress Test
 
 on:
   pull_request:
-    - develop
+    branches:
+      - develop
 
-  
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -25,4 +25,4 @@ jobs:
         run: npm run build
 
       - name: Run Tests
-        run: npm run test
+        run: npm run test-component

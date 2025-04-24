@@ -1,7 +1,7 @@
 # TODO: REWRITE SO WORKS WITH DEPLOY
 # TODO/need: secret keys? render api hook? 
 # DONE: added render deploy hook to github
-# TODO: add env key to render? create secrets folder ? 
+# TODO: add env key to render? create secrets folder ?
 # this is borrowed from module mini project
 
 
@@ -21,8 +21,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy
-        # Only run this step if the branch is main
-        if: github.ref == 'refs/heads/main'
         env:
           deploy_url: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
         run: |

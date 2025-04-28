@@ -2,7 +2,7 @@
 
 ## Description
 
-this project utilizes cypress, mongoDB, Mongo Atlas to create a CI/CD testing and deployment pipeeline
+this project utilizes cypress, mongoDB, Mongo Atlas to create a CI/CD testing and deployment pipeline
 
 ![screenshot of app](CICDScreenshot1.png)
 
@@ -28,7 +28,7 @@ to see how this works, [click here](https://cicd-laz7.onrender.com/)
 ## License
 
 ## Contributing 
-pleae create your own branch
+please create your own branch
 
 ## Tests
   
